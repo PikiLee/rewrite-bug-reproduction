@@ -5,3 +5,14 @@ export default function HomePage() {
     </div>
   );
 }
+
+export const generateStaticParams = async () => {
+    return [
+        {
+            locale: 'en',
+        },
+        {
+            locale: 'de',
+        },
+    ];
+};
