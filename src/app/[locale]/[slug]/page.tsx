@@ -11,6 +11,14 @@ export const generateStaticParams = async () => {
     return [
         {
             locale: 'en',
+            slug: 'about',
+        },
+        {
+            locale: 'de',
+            slug: 'about',
+        },
+        {
+            locale: 'en',
             slug: 'real-about',
         },
         {
